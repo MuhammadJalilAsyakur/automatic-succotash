@@ -72,6 +72,7 @@ body {
     padding: 7px;
     border-radius: 6px;
     border: rgb(99, 3, 255) 1px solid;
+    font-weight: bolder;
     font-family: 'outfit', sans;
 }
 
