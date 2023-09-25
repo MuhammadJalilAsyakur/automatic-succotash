@@ -71,7 +71,8 @@ body {
     width: 60%;
     padding: 7px;
     border-radius: 6px;
-    border: grey solid;
+    border: rgb(99, 3, 255) 1px solid;
+    font-family: 'outfit', sans;
 }
 
 #card label {
