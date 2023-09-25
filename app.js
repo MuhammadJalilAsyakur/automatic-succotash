@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             } else if (roundedBMI <= 30) {
                 catergory = "OLAHRAGA TOLOL"
             } else if (roundedBMI > 30) {
-                catergory = "OBESITAS LU BANGSAT"
+                catergory = "OBESITAS BANGSAT"
             }
             resultDiv.innerText = `BMI Anda adalah: ${roundedBMI} berarti anda  ${catergory}`;
         } else {
