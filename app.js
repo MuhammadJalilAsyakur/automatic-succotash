@@ -13,15 +13,15 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (!isNaN(roundedBMI)) {
             if (roundedBMI < 18.5) {
-                calculateResult = "Underweight"
+                catergory = "Underweight"
             } else if (roundedBMI <= 24.9) {
-                calculateResult = "Normal"
+                catergory = "Normal"
             } else if (roundedBMI <= 25) {
-                calculateResult = "Overweight"
+                catergory = "Overweight"
             } else if (roundedBMI <= 30) {
-                calculateResult = "OLAHRAGA TOLOL"
+                catergory = "OLAHRAGA TOLOL"
             } else {
-                calculateResult = "Wah anda sepertinya hobbit"
+                catergory = "Wah anda sepertinya hobbit"
             }
 
             resultDiv.innerText = `BMI Anda adalah: ${roundedBMI} berarti anda  ${catergory}`;
