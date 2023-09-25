@@ -20,8 +20,9 @@ document.addEventListener("DOMContentLoaded", function () {
                 catergory = "Overweight"
             } else if (roundedBMI <= 30) {
                 catergory = "OLAHRAGA TOLOL"
+            } else if (roundedBMI > 30) {
+                catergory = "OBESITAS LU BANGSAT"
             }
-
             resultDiv.innerText = `BMI Anda adalah: ${roundedBMI} berarti anda  ${catergory}`;
         } else {
             resultDiv.innerText = "Mohon masukkan berat badan dan tinggi badan yang valid.";
