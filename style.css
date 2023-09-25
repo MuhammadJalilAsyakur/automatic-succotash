@@ -66,7 +66,7 @@ body {
 
 #card p {
     font-weight: bold;
-    color: rgb(18, 234, 33);
+    color: #2bcb78;
 }
 
 
@@ -76,13 +76,13 @@ body {
     padding: 10px;
 
     font-family: 'Outfit', sans-serif;
-    background-color: rgb(95, 95, 231);
+    background-color: rgb(3, 3, 88);
     border: none;
     font-weight: bold;
-    color: #03d166;
+    color: #2bcb78;
     border-radius: 6px;
 }
 
 #card-button:hover {
-    background-color: rgb(3, 3, 88);
+    background-color: rgb(95, 95, 231);
 }
