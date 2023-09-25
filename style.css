@@ -28,9 +28,9 @@ body {
     padding: 20px;
     gap: 1.2rem;
 
-    background: linear-gradient(45deg, #d00bdb, #88d3ff 50%, #2bff88 90%);
+    background: rgb(95, 95, 231);
     border-radius: 60% 40% 30% 70% / 60% 30% 20% 40%;
-    animation: morph 8s ease-in-out infinite;
+    animation: morph 2s ease-in-out infinite;
 }
 
 @keyframes morph {
@@ -40,7 +40,6 @@ body {
 
     50% {
         border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
-        background-color: linear-gradient(45deg, #fa88ff);
     }
 
     100% {
@@ -50,7 +49,7 @@ body {
 
 #card-title {
     text-align: center;
-    color: rgb(3, 3, 88);
+    color: rgb(245, 160, 254);
 }
 
 #card input {
@@ -62,12 +61,12 @@ body {
 
 #card label {
     font-weight: bold;
-    color: rgb(255, 242, 2);
+    color: #f4f405;
 }
 
 #card p {
     font-weight: bold;
-    color: rgb(50, 48, 17);
+    color: rgb(18, 234, 33);
 }
 
 
