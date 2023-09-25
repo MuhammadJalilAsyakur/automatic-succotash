@@ -20,6 +20,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 calculateResult = "Overweight"
             } else if (roundedBMI <= 30) {
                 calculateResult = "OLAHRAGA TOLOL"
+            } else {
+                calculateResult = "Wah anda sepertinya hobbit"
             }
 
             resultDiv.innerText = `BMI Anda adalah: ${roundedBMI} berarti anda  ${catergory}`;
