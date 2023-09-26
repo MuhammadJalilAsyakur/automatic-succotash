@@ -28,7 +28,7 @@ body {
     padding: 20px;
     gap: 1.2rem;
 
-    background: rgb(95, 95, 231);
+    background: linear-gradient(100deg, #bde0fe, #febdfa 50%, #a2d2ff 90%);
     border-radius: 63% 37% 56% 44% / 37% 47% 53% 63%;
     animation: morph 4s ease-in-out infinite;
 }
@@ -61,10 +61,16 @@ body {
 }
 
 /* 0 20 40 60 80 100 */
-
 #card-title {
     text-align: center;
-    color: rgb(245, 160, 254);
+}
+
+h2 {
+    color: rgb(223, 2, 247);
+}
+
+h1 {
+    color: rgb(3, 3, 88);
 }
 
 #card input {
@@ -78,12 +84,13 @@ body {
 
 #card label {
     font-weight: bold;
-    color: #f4f405;
+    color: rgb(3, 3, 88);
+    margin-bottom: -16px;
 }
 
 #card p {
     font-weight: bold;
-    color: #2bcb78;
+    color: #0c9850;
 }
 
 
@@ -93,7 +100,7 @@ body {
     padding: 10px;
 
     font-family: 'Outfit', sans-serif;
-    background-color: rgb(3, 3, 88);
+    background-color: #f4f405;
     border: none;
     font-weight: bold;
     color: #2bcb78;
