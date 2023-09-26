@@ -12,16 +12,14 @@ document.addEventListener("DOMContentLoaded", function () {
         let category = '';
 
         if (!isNaN(roundedBMI)) {
-            if (roundedBMI < 18.5) {
+            if (roundedBMI <= 18.5) {
                 category = "Underweight"
             } else if (roundedBMI <= 24.9) {
                 category = "Normal"
             } else if (roundedBMI <= 25) {
                 category = "Overweight"
-            } else if (roundedBMI <= 30) {
-                category = "HARUS OLAHRAGA TOLOL"
-            } else if (roundedBMI > 30) {
-                category = "OBESITAS BANGSAT"
+            } else if (roundedBMI >= 30) {
+                category = "Obesitassssssssssssssss"
             }
             resultDiv.innerText = `BMI Anda adalah: ${roundedBMI} berarti anda  ${category}`;
         } else {
@@ -30,4 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-
+// Underweight = <18.5
+// Normal weight = 18.5 – 24.9
+// Overweight = 25 – 29.9
+// Obesity = BMI of 30 or greater
