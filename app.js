@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 category = "Underweight"
             } else if (roundedBMI <= 24.9) {
                 category = "Normal"
-            } else if (roundedBMI <= 25) {
+            } else if (roundedBMI <= 25 || roundedBMI <= 29.9) {
                 category = "Overweight"
             } else if (roundedBMI >= 30) {
                 category = "Obesitassssssssssssssss"
