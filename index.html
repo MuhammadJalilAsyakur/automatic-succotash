@@ -19,8 +19,12 @@
             <input type="number" placeholder="80" id="weight">
             <label for="height">Put your height in here (CM)</label>
             <input type="number" id="height" placeholder="150">
-            <button id="card-button">Calculate BMI</button>
-            <div id="results"></div>
+            <div id="btn-warpper">
+                <button id="card-button">Calculate BMI</button>
+                <button id="card-button" onclick="resetCalculator()">Reset</button>
+                <div id="results"></div>
+            </div>
+
 
         </div>
     </div>
